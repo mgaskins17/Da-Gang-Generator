@@ -4,7 +4,6 @@
  const needengineer = require('./lib/Engineer');
  const needintern = require('./lib/Intern');
  const cardHTML = require('./dist/cardHTML');
- const generateHTML = require('./dist/generateHTML');
 
 // initializing constants
 let manager = [];
