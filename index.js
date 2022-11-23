@@ -90,8 +90,6 @@ function addManager() {
             let temp2 = new cardHTML(data.manname, 'Manager', data.manID, data.manemail, data.off).ManagerCard();
             manager.push(temporary);
             mancard.push(temp2);
-            // console.log(manager);
-            // console.log(mancard);
             teamBuilding();
         })
 }
@@ -120,7 +118,7 @@ function addEngineer() {
         },
         {
             type: 'input',
-            message: `What is the Engineer's Github?:`,
+            message: `What is the Engineer's Github Username?:`,
             name: 'github'
         }
     ])
