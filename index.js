@@ -3,7 +3,7 @@
  const needmanager = require('./lib/Manager');
  const needengineer = require('./lib/Engineer');
  const needintern = require('./lib/Intern');
- const cardHTML = require('./dist/cardHTML');
+ const cardHTML = require('./lib/cardHTML');
 
 // initializing constants
 let manager = [];

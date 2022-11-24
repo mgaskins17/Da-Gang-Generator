@@ -14,7 +14,7 @@ describe('Manager', () => {
         })
     })
 
-    describe('Get School function', () => {
+    describe('Get Office Number function', () => {
         const test = new manager('Matthew', '123', 'mattgaskins77@gmail.com', 'A123').getofficeNumber();
         
         expect(test).toEqual('A123');

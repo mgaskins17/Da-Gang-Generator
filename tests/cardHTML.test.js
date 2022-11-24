@@ -1,4 +1,4 @@
-const cardHTML = require('../dist/cardHTML');
+const cardHTML = require('../lib/cardHTML');
 
 describe('cardHTML', () => {
     describe('ManagerCard', () => {
